@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto_Anime", "Proyecto_Anime.csproj", "{51F476D3-6C33-4624-B839-F98DDCB78922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaAnime", "..\LibreriaAnime\LibreriaAnime.csproj", "{03653DAD-F36D-44CB-8903-6F383044EBDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51F476D3-6C33-4624-B839-F98DDCB78922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F476D3-6C33-4624-B839-F98DDCB78922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F476D3-6C33-4624-B839-F98DDCB78922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F476D3-6C33-4624-B839-F98DDCB78922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94137D62-0E04-4B9D-A923-5DEA9A23D862}
+	EndGlobalSection
+EndGlobal
