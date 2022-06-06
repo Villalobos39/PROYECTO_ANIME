@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\TablaAnime.json" />
+    <Content Remove="wwwroot\lib\Anime\TablaAnime.csv" />
+    <Content Remove="wwwroot\lib\Anime\TablaAnime.json" />
+    <Content Remove="wwwroot\lib\Anime\TablaAnime.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\TablaAnime.json" />
+    <None Include="wwwroot\lib\Anime\TablaAnime.csv" />
+    <None Include="wwwroot\lib\Anime\TablaAnime.json" />
+    <None Include="wwwroot\lib\Anime\TablaAnime.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaAnime\LibreriaAnime.csproj" />
+    <ProjectReference Include="..\Proyecto_Anime\Proyecto_Anime.csproj" />
+  </ItemGroup>
+
+</Project>

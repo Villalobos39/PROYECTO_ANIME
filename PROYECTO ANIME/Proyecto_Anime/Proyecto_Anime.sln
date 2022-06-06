@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proyecto_Anime", "Proyecto_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaAnime", "..\LibreriaAnime\LibreriaAnime.csproj", "{03653DAD-F36D-44CB-8903-6F383044EBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeWebApi", "..\AnimeWebApi\AnimeWebApi.csproj", "{06A3AFD7-3585-4AB3-BF67-261A298C56B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03653DAD-F36D-44CB-8903-6F383044EBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A3AFD7-3585-4AB3-BF67-261A298C56B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A3AFD7-3585-4AB3-BF67-261A298C56B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A3AFD7-3585-4AB3-BF67-261A298C56B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A3AFD7-3585-4AB3-BF67-261A298C56B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
