@@ -45,35 +45,33 @@
 <div class="text-center"> <h3 class="display-4">BIENVENIDO A ANI ART PLAY</h3> </div>
 <div><a href="../Pages/PaginaAnime/HomeAnime.cshtml"></a></div>
 <div>
-    <body>
-        <section>
-            <h1>ANIME</h1>
-            <!-- TABLE CONSTRUCTION-->
-            <table id='table'>
-                <!-- HEADING FORMATION -->
-                <tr>
-                    <th>ID</th>
-                    <th>TITULO DE ANIME</th>
-                    <th>GENERO</th>
-                    <th>TIPO</th>
-                </tr>
-                <script>
-                    $(document).ready(function () {
-                        $.getJSON("TablaAnime.json",
-                            function (data) {
-                                var student = '';
-                                $.each(data, function (key, value) {
-                                    student += '<tr>';
-                                    student += '<td>' + value.anime_id + '</td>';
-                                    student += '<td>' + value.NOMBRE + '</td>';
-                                    student += '<td>' + value.GENERO + '</td>';
-                                    student += '<td>' + value.TIPO + '</td>';
-                                    student += '</tr>';
-                                });
-                                $('#table').append(student);
+    <section>
+        <h1>ANIME</h1>
+        <!-- TABLE CONSTRUCTION-->
+        <table id='table'>
+            <!-- HEADING FORMATION -->
+            <tr>
+                <th>ID</th>
+                <th>TITULO DE ANIME</th>
+                <th>GENERO</th>
+                <th>TIPO</th>
+            </tr>
+            <script>
+                $(document).ready(function () {
+                    $.getJSON("../../lib/Anime/TablaAnime.json",
+                        function (data) {
+                            var student = '';
+                            $.each(data, function (key, value) {
+                                student += '<tr>';
+                                student += '<td>' + value.anime_id + '</td>';
+                                student += '<td>' + value.NOMBRE + '</td>';
+                                student += '<td>' + value.GENERO + '</td>';
+                                student += '<td>' + value.TIPO + '</td>';
+                                student += '</tr>';
                             });
-                    });
-                </script>
-        </section>
-    </body>
+                            $('#table').append(student);
+                        });
+                });
+            </script>
+    </section>
 </div>

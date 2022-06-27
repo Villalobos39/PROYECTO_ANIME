@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Pages\TablaAnime.json" />
     <Content Remove="wwwroot\lib\Anime\TablaAnime.csv" />
     <Content Remove="wwwroot\lib\Anime\TablaAnime.json" />
     <Content Remove="wwwroot\lib\Anime\TablaAnime.xml" />
@@ -21,6 +20,10 @@
   <ItemGroup>
     <ProjectReference Include="..\LibreriaAnime\LibreriaAnime.csproj" />
     <ProjectReference Include="..\Proyecto_Anime\Proyecto_Anime.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Data\" />
   </ItemGroup>
 
 </Project>
