@@ -51,6 +51,7 @@
     <Compile Include="FileManager\IFileWriter.cs" />
     <Compile Include="FileManager\Parser.cs" />
     <Compile Include="Generos.cs" />
+    <Compile Include="IRepository.cs" />
     <Compile Include="Productora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
