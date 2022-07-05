@@ -58,6 +58,7 @@
     <Compile Include="Productora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
+    <Compile Include="sqlManager\SqlRepository.cs" />
     <Compile Include="Tipo.cs" />
   </ItemGroup>
   <ItemGroup>
