@@ -52,6 +52,21 @@ namespace LibreriaAnime
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //public List<Anime> GetAlls()
 //{
 //    var listAnimeStrings = FileManager.FileReader.ReadFile(@"C:\Users\dulso\OneDrive\Documentos\Anime\TablaAnime.csv");
