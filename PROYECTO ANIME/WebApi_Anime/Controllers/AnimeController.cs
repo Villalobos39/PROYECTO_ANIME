@@ -29,7 +29,12 @@ namespace WebApi_Anime.Controllers
             return _repository.GetAnimeByTitulo(title);
         }
 
-
+        [HttpPost]
+        [Route("Anime")]
+        //public long Post([FromBody] Anime anime)
+        //{
+        //    return _repository.Create(anime);
+        //}
         // GET: AnimeController
         public ActionResult Index()
         {
