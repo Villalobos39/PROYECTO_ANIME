@@ -26,15 +26,15 @@ namespace WebApi_Anime.Controllers
         public IEnumerable<Anime> GetAnimes(String title)
         {
             // _logger.Log("Leyendo movies por nombre");
-            return _repository.GetAnimeByTitulo(title);
+            return _repository.GetAnimeByName(title);
         }
 
         [HttpPost]
         [Route("Anime")]
-        //public long Post([FromBody] Anime anime)
-        //{
-        //    return _repository.Create(anime);
-        //}
+        public long Post([FromBody] Anime anime)
+        {
+            return _repository.Create(anime);
+        }
         // GET: AnimeController
         public ActionResult Index()
         {

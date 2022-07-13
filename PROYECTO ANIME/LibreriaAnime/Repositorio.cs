@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LibreriaAnime
 {
-    public class Repositorio
+    public class Repositorio : IRepository
     {
         public List<Anime> ListaAnime { get; set; }
         private bool LoadedFile { get; set; } = false;
@@ -39,7 +39,7 @@ namespace LibreriaAnime
             return ListaAnime;
         }
 
-        public List<Anime> GetAnimeByTitulo(String title)
+        public List<Anime> GetAnimeByName(String title)
         {
             Console.WriteLine("LEYENDO ANIMES POR TITULO");
             if (LoadedFile == false)
@@ -47,6 +47,11 @@ namespace LibreriaAnime
                 throw new Exception("NO SE CARGO EL ARCHIVO");
             }
             return ListaAnime.Where(m => m.Titulo_Anime.Contains(title)).ToList();
+        }
+
+        public long Create(Anime anime)
+        {
+            throw new NotImplementedException();
         }
     }
 }

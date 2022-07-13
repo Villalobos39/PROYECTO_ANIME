@@ -9,8 +9,7 @@ namespace LibreriaAnime
     public interface IRepository
     {
         List<Anime> GetAll();
-        List<Anime> GetAnimeByName(string title);
-
+        List<Anime> GetAnimeByName(string anime);
         long Create(Anime anime);
     }
 }
